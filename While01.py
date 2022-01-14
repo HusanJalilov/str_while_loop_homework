@@ -14,7 +14,7 @@ def main(s):
             m+=1
     
         idx=idx+1
-    print(m)
+    return m
 
-main("22as23a2")
+print(main("22as23a2"))
     
