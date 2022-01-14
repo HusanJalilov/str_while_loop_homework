@@ -9,10 +9,12 @@ def main(s):
     m=0
     idx=0
     while idx<len(s):
-        if s[idx].isdigit()!=True and s[idx].isdigit()==True:
+        if s[idx].isdigit()!=True and s[idx].isdigit()==True and s[idx]!=" ":
             m+=1
     
         idx=idx+1
     return m
+print(main("@## jnjd #12"))
+
 
 

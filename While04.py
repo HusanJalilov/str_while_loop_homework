@@ -9,10 +9,10 @@ def main(s):
     m=0
     idx=0
     while idx<len(s):
-        if s[idx].isdigit()!=True and s[idx]==s[idx].upper():
+        if s[idx].isdigit()!=True and s[idx]==s[idx].upper() and s[idx]!=" ":
             m+=1
     
         idx=idx+1
     return m
-print(main("CoDejidjSSSS"))
+print(main("CoDejidjSSS S"))
 
