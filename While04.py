@@ -14,5 +14,5 @@ def main(s):
     
         idx=idx+1
     return m
-print(main("CoDejidjSSS S"))
+print(main("CoD  D 23ejidjSSS S"))
 
