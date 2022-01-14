@@ -6,4 +6,13 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    m=0
+    idx=0
+    while idx<len(s):
+        if s[idx].isdigit()!=True and s[idx].isdigit()==True:
+            m+=1
+    
+        idx=idx+1
+    return m
+
+
