@@ -7,11 +7,15 @@ def main(s):
     Returns:
         int: return answer
     """
-    m=0
-    i=0
-    while i<len(s):
-        if s[i]!="a" and s[i]!="e" and s[i]!="i" and s[i]!="o" and s[i]!="u" and s[i]!=" ":
-            m+=1
-        i+=1
-        return m
-print(main("hpsanjalilov"))
+    idx=0
+    number=0
+    while idx<len(s):
+        if s[idx]!="a" or s[idx]!="e" or s[idx]!="i" or s[idx]!="o" or s[idx]!="u"  or s[idx]!=" ":
+            number+=1
+        idx=idx+1
+    return number
+
+        
+
+
+print(main("ausan jalilov"))
