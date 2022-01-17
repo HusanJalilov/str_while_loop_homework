@@ -1,3 +1,9 @@
+def alpha(ch):
+    if ch == 'A' or ch == 'a' or ch == 'E' or ch == 'e' or ch == 'I' or ch == 'i' or ch == 'O' or ch == 'o' or ch == 'U' or ch == 'u' or ch == 'Y' or ch == 'y':
+        return 0
+    else:
+        return 1
+
 def main(s):
     """
     A variable of type str is given. Find and return how many consonant letters there are.
@@ -7,15 +13,10 @@ def main(s):
     Returns:
         int: return answer
     """
-    idx=0
-    number=0
-    while idx<len(s):
-        if s[idx]!="a" or s[idx]!="e" or s[idx]!="i" or s[idx]!="o" or s[idx]!="u"  or s[idx]!=" ":
-            number+=1
-        idx=idx+1
-    return number
-
-        
-
-
-print(main("ausan jalilov"))
+    idx = 0
+    count_cons = 0
+    while idx < len(s):
+        if s[idx].isalpha():
+            count_cons += alpha(s[idx])
+        idx += 1
+    return count_cons
