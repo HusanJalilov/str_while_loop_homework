@@ -6,4 +6,14 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    idx=0
+    sd=0
+    while idx<len(s):
+        sd+=int(s[idx])
+        
+
+        idx=idx+1
+    return sd
+        
+print(main("123456789"))
+    
