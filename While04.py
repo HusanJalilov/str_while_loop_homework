@@ -9,7 +9,7 @@ def main(s):
     m=0
     idx=0
     while idx<len(s):
-        if s[idx].upper()==s[idx] and s[idx]!=" ":
+        if s[idx].isupper():
             m+=1
     
         idx=idx+1
