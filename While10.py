@@ -6,4 +6,17 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    idx=0
+    num=0
+    while idx<len(s):
+        sd=int(s[idx])
+        if sd%2!=0:
+            num+=sd
+           
+
+        
+
+        idx=idx+1
+    return num
+        
+print(main("34733"))
