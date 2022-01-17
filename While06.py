@@ -10,8 +10,8 @@ def main(s):
     m=0
     i=0
     while i<len(s):
-        if s[i]!="a" and s[i]!="e" and s[i]!="i" and s[i]!="o" and s[i]!="u":
+        if s[i]!="a" and s[i]!="e" and s[i]!="i" and s[i]!="o" and s[i]!="u" and s[i]!=" ":
             m+=1
         i+=1
         return m
-print(main("husanjalilov"))
+print(main("hpsanjalilov"))
